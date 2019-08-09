@@ -1,0 +1,11 @@
+framework module GSKit {
+  umbrella header "GSKit.h"
+
+  export *
+  module * { export * }
+}
+
+module GSKit.Swift {
+    header "GSKit-Swift.h"
+    requires objc
+}

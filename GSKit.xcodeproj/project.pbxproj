@@ -14,18 +14,13 @@
 		D69D98C122FD5B8400DA27D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69D98C022FD5B8400DA27D9 /* Assets.xcassets */; };
 		D69D98C422FD5B8400DA27D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69D98C222FD5B8400DA27D9 /* LaunchScreen.storyboard */; };
 		D69D98CB22FD5BBB00DA27D9 /* GSKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6FA96DF22FD59E500EF29EE /* GSKit.framework */; };
+		D69D98CF22FDB00C00DA27D9 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69D98CE22FDB00C00DA27D9 /* HUD.swift */; };
+		D69D98D222FDB0FA00DA27D9 /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69D98D122FDB0FA00DA27D9 /* Extensions+UIView.swift */; };
+		D69D98D622FDB14B00DA27D9 /* Extensions+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69D98D522FDB14B00DA27D9 /* Extensions+UIColor.swift */; };
+		D69D98D822FDB1B100DA27D9 /* BackendManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69D98D722FDB1B100DA27D9 /* BackendManager.swift */; };
+		D69D98DA22FDB25D00DA27D9 /* Backend+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69D98D922FDB25D00DA27D9 /* Backend+Extension.swift */; };
 		D6FA96E422FD59E500EF29EE /* GSKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D6FA96E222FD59E500EF29EE /* GSKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		D69D98CC22FD713D00DA27D9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D6FA96D622FD59E500EF29EE /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D6FA96DE22FD59E500EF29EE;
-			remoteInfo = GSKit;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		D69D98B122FD5A3600DA27D9 /* GSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +31,11 @@
 		D69D98C022FD5B8400DA27D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D69D98C322FD5B8400DA27D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D69D98C522FD5B8400DA27D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D69D98CE22FDB00C00DA27D9 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		D69D98D122FDB0FA00DA27D9 /* Extensions+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
+		D69D98D522FDB14B00DA27D9 /* Extensions+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions+UIColor.swift"; sourceTree = "<group>"; };
+		D69D98D722FDB1B100DA27D9 /* BackendManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendManager.swift; sourceTree = "<group>"; };
+		D69D98D922FDB25D00DA27D9 /* Backend+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Backend+Extension.swift"; sourceTree = "<group>"; };
 		D6FA96DF22FD59E500EF29EE /* GSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6FA96E222FD59E500EF29EE /* GSKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSKit.h; sourceTree = "<group>"; };
 		D6FA96E322FD59E500EF29EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,6 +69,7 @@
 				D69D98C022FD5B8400DA27D9 /* Assets.xcassets */,
 				D69D98C222FD5B8400DA27D9 /* LaunchScreen.storyboard */,
 				D69D98C522FD5B8400DA27D9 /* Info.plist */,
+				D69D98D922FDB25D00DA27D9 /* Backend+Extension.swift */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -78,6 +79,32 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D69D98D022FDB0ED00DA27D9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D69D98D122FDB0FA00DA27D9 /* Extensions+UIView.swift */,
+				D69D98D522FDB14B00DA27D9 /* Extensions+UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D69D98D322FDB11400DA27D9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D69D98D422FDB11C00DA27D9 /* Views */,
+				D69D98D022FDB0ED00DA27D9 /* Extensions */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D69D98D422FDB11C00DA27D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D69D98CE22FDB00C00DA27D9 /* HUD.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		D6FA96D522FD59E500EF29EE = {
@@ -104,6 +131,8 @@
 			children = (
 				D6FA96E222FD59E500EF29EE /* GSKit.h */,
 				D69D98B122FD5A3600DA27D9 /* GSViewController.swift */,
+				D69D98D722FDB1B100DA27D9 /* BackendManager.swift */,
+				D69D98D322FDB11400DA27D9 /* UI */,
 				D6FA96E322FD59E500EF29EE /* Info.plist */,
 			);
 			path = GSKit;
@@ -134,7 +163,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D69D98CD22FD713D00DA27D9 /* PBXTargetDependency */,
 			);
 			name = Example;
 			productName = Example;
@@ -223,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D69D98BC22FD5B8200DA27D9 /* ViewController.swift in Sources */,
+				D69D98DA22FDB25D00DA27D9 /* Backend+Extension.swift in Sources */,
 				D69D98BA22FD5B8200DA27D9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,19 +260,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69D98D822FDB1B100DA27D9 /* BackendManager.swift in Sources */,
 				D69D98B222FD5A3600DA27D9 /* GSViewController.swift in Sources */,
+				D69D98CF22FDB00C00DA27D9 /* HUD.swift in Sources */,
+				D69D98D222FDB0FA00DA27D9 /* Extensions+UIView.swift in Sources */,
+				D69D98D622FDB14B00DA27D9 /* Extensions+UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		D69D98CD22FD713D00DA27D9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D6FA96DE22FD59E500EF29EE /* GSKit */;
-			targetProxy = D69D98CC22FD713D00DA27D9 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D69D98BD22FD5B8200DA27D9 /* Main.storyboard */ = {

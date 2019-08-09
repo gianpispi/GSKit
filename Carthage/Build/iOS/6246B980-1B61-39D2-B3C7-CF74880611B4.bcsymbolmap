@@ -1,0 +1,36 @@
+BCSymbolMap Version: 2.0
+_$sSSSgWOe
+_$s5GSKit16GSViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo
+_$s5GSKit16GSViewControllerC5coderACSgSo7NSCoderC_tcfcTo
+_$s5GSKitMXM
+_symbolic So16UIViewControllerC
+_$s5GSKit16GSViewControllerCML
+_$s5GSKit16GSViewControllerCMf
+_symbolic _____ 5GSKit16GSViewControllerC
+_$s5GSKit16GSViewControllerCMF
+__swift_FORCE_LOAD_$_swiftUIKit_$_GSKit
+__swift_FORCE_LOAD_$_swiftFoundation_$_GSKit
+__swift_FORCE_LOAD_$_swiftDarwin_$_GSKit
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_GSKit
+__swift_FORCE_LOAD_$_swiftCoreFoundation_$_GSKit
+__swift_FORCE_LOAD_$_swiftDispatch_$_GSKit
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_GSKit
+__swift_FORCE_LOAD_$_swiftCoreImage_$_GSKit
+__swift_FORCE_LOAD_$_swiftMetal_$_GSKit
+__swift_FORCE_LOAD_$_swiftQuartzCore_$_GSKit
+___swift_reflection_version
+_objc_classes
+Apple LLVM version 10.0.1 (clang-1001.0.46.5)
+<swift-imported-modules>
+/Users/gianpierospinelli/Documents/Tutorial/GSKit
+Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)
+/Users/gianpierospinelli/Documents/Tutorial/GSKit/GSKit/GSViewController.swift
+deinit
+GSViewController.swift
+/Users/gianpierospinelli/Documents/Tutorial/GSKit/GSKit
+$s5GSKit16GSViewControllerCMa
+<compiler-generated>
+init
+changeBackground
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+/Users/gianpierospinelli/Library/Developer/Xcode/DerivedData/GSKit-gquuqpioensfixgysiihhlksuype/Build/Intermediates.noindex/ArchiveIntermediates/GSKit/IntermediateBuildFilesPath/GSKit.build/Release-iphoneos/GSKit.build/DerivedSources/GSKit_vers.c
